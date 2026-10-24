@@ -36,7 +36,7 @@ when 'VYBER KARTOU' then 'Credit Card Withdrawal'
 when 'VKLAD' then 'Cash Deposit'
 when 'PREVOD Z UCTU' then 'Incoming Transfer'
 when 'VYBER' then 'Cash Withdrawal'
-when 'PREVOD NA UCET' then 'Outgoing transfer'
+when 'PREVOD NA UCET' then 'Outgoing Transfer'
 else clean.operation end, 
 
 case clean.k_symbol
