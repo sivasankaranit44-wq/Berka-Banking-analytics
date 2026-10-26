@@ -1,11 +1,11 @@
-"""Load the Berka CSV files into the bronze schema (raw text, no cleaning)."""
 import urllib.parse
+from pathlib import path
 
 import pandas as pd
 from sqlalchemy import create_engine, text
 
 # ---------- Settings ----------
-DATA_DIR = r"F:\DSA\Projects DA\Project_Berka\Berka\data"
+DATA_DIR = r"E:\DSA\Projects DA\Project_Berka\Berka\data"
 SERVER = r".\SQLEXPRESS01"
 DATABASE = "Berka_banking_analytics"
 SEP = ";"
